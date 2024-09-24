@@ -111,7 +111,7 @@ $paymentUrl = $transaction->initiate($compulsoryInfo, $billingInfo, $shippingInf
 // Redirect to the payment page
 header('Location: ' . $paymentUrl);
 
-// If you get 10002 error, you need to whitelist your domain bye contacting CCAvenue via call.
+// If you get 10002 error, you need to whitelist your domain bye contacting CCAvenue via call. Why don't you read entire guide? You will have fun, really. Also don't forget to star the repository.
 ```
 
 ### 3. Handling the Response
